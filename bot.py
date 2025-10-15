@@ -152,5 +152,6 @@ def run_flask():
 if __name__ == "__main__":
     thread = threading.Thread(target=run_flask)
     thread.start()
-    bot.run("MTQyNzgxODI1MDEyODg1NTIyMA.GD7SDb.hM4XpusXhLx7HR2wKV0ci73G7w9F_EexX018BU")
+    bot.run("TOKEN")
+
 
